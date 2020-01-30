@@ -10,8 +10,8 @@ end
 #   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 # end
 
-def introduction_with_language_optional (name, "Ruby")
-  introduction_with_language("Edwin", "Ruby")
+def introduction_with_language_optional (name, language)
+  introduction_with_language(name, language)
 end
 
 
